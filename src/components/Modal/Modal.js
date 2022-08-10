@@ -29,7 +29,7 @@ const Modal = props => {
             <h4 className="modal-title">{props.title}</h4>
           </div>
           <div className="modal-body">
-            <div className="d-flex">
+            <div className="d-flexflex">
                 <div className="product__details">
                     <p>{props.product.description}</p>
                 </div>
